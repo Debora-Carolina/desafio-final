@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  header {
+    height: 15vh;
+    background-color:black;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header section {
+    height: 70%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .logo {
+    height: 70%;
+    border-radius: 30px;
+  }
+  
+  .nave {
+    border: solid black 1px;
+    height: 35%;
+    width: 20%;
+  }
+  
+  .nave ul {
+    border: solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+    
+  .nave img {
+    width: 3vw;
+  }
+
+  main {
+    height: 100vh;
+    width: 100%;
+    border: solid red;
+    background-color: #FD6A9A;
+    background-image: url("./img/dog.com.chapeu.png");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
