@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     list-style: none;
+    box-sizing: border-box;
   }
-  
+  body{
+
+    font-family: 'Roboto Serif', serif;
+
+}
+
   header {
     height: 15vh;
     background-color:black;
-    border: solid;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,19 +28,17 @@
     justify-content: space-evenly;
   }
   
-  .logo {
+ .logo {
     height: 70%;
-    border-radius: 30px;
+    
   }
   
   .nave {
-    border: solid black 1px;
     height: 35%;
     width: 20%;
   }
   
   .nave ul {
-    border: solid black;
     height: 100%;
     width: 100%;
     display: flex;
@@ -45,13 +50,107 @@
     width: 3vw;
   }
 
-  main {
-    height: 100vh;
-    width: 100%;
-    border: solid red;
+  
+  .cachorroDeChapeu {
+    height: 130vh;
     background-color: #FD6A9A;
-    background-image: url("./img/dog.com.chapeu.png");    
+    background-image: url("./img/doc.com.chapeu.png");    
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
   }
+    
+
+  .h2cachorrodechapeu  {
+    font-size: 150px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 26%;
+    
+  }
+
+  .pata {
+   
+  }
+
+  .cachorroComTouca2Web {
+    height: 130vh;
+    width: 100%;
+    background-color:#F4F2F3;
+    background-image: url("./img/cachorroComToucaWeb.png");    
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: right;
+        
+    }
+    
+    .h2banhoetosa {
+      font-size: 150px;
+      color: #3A342F;
+      font-weight: bold;
+      text-align: center;
+      width: 26%;
+border: solid red;
+
+}
+
+.h2textodobanhoetosa {
+
+  font-size: 100px;
+  color: #3A342F;
+  text-align: center;
+   width: 26%;
+border: solid red;
+
+}
+
+.cachorocomtoucatexto {
+height: 150 vw;
+width: 100vw; 
+}
+
+
+
+.docComTouca {
+
+font-size: 100px;
+color:#F4F2F3;
+border: solid red;
+border-radius: 60px 60px 60px 60px;
+background-color: #3A342F;
+width: 800vh;
+width: 350px;
+height: 100px;
+
+}
+
+.cachorropequeno {
+  height: 130vh;
+  width: 100%;
+  background-image: url("./img/cachorroPequeno2Web.png");   
+  background-repeat: no-repeat;
+  background-size: 100% 120%; 
+  
+ 
+}
+
+footer {
+  height: 80vh;
+  background-color: #EB4A7B;
+  border: solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+
+}
+
+.navfooter {
+  height: 70%;
+}
