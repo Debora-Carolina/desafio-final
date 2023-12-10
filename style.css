@@ -6,10 +6,9 @@
     list-style: none;
     box-sizing: border-box;
   }
+
   body{
-
     font-family: 'Roboto Serif', serif;
-
 }
 
   header {
@@ -30,7 +29,6 @@
   
  .logo {
     height: 70%;
-    
   }
   
   .nave {
@@ -50,7 +48,6 @@
     width: 3vw;
   }
 
-  
   .cachorroDeChapeu {
     height: 130vh;
     background-color: #FD6A9A;
@@ -62,21 +59,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
   }
-    
 
   .h2cachorrodechapeu  {
-    font-size: 150px;
+    font-size: 2rem;
     color: white;
     font-weight: bold;
     text-align: center;
-    width: 26%;
-    
+    width: 28%;
+    margin-bottom: 10%;
   }
 
   .pata {
-   
+    margin-bottom: 20%;
   }
 
   .cachorroComTouca2Web {
@@ -87,27 +82,23 @@
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: right;
-        
-    }
+  }
     
-    .h2banhoetosa {
-      font-size: 150px;
+ .h2banhoetosa {
+      font-size: 3rem;
       color: #3A342F;
       font-weight: bold;
       text-align: center;
       width: 26%;
-border: solid red;
-
+      border: solid red;
 }
 
 .h2textodobanhoetosa {
-
-  font-size: 100px;
+  font-size: 2rem;
   color: #3A342F;
   text-align: center;
    width: 26%;
 border: solid red;
-
 }
 
 .cachorocomtoucatexto {
@@ -115,11 +106,8 @@ height: 150 vw;
 width: 100vw; 
 }
 
-
-
-.docComTouca {
-
-font-size: 100px;
+.bottomDoDogComTouca {
+font-size: 2rem;
 color:#F4F2F3;
 border: solid red;
 border-radius: 60px 60px 60px 60px;
@@ -127,7 +115,6 @@ background-color: #3A342F;
 width: 800vh;
 width: 350px;
 height: 100px;
-
 }
 
 .cachorropequeno {
@@ -135,22 +122,57 @@ height: 100px;
   width: 100%;
   background-image: url("./img/cachorroPequeno2Web.png");   
   background-repeat: no-repeat;
-  background-size: 100% 120%; 
-  
- 
+  background-size: 100% 120%;
 }
 
-footer {
-  height: 80vh;
-  background-color: #EB4A7B;
+.h2cachorropequeno {
+  font-size: 3rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  width: 26%;
   border: solid red;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: white;
-
 }
 
-.navfooter {
-  height: 70%;
+.h2textoCachorropequeno {
+font-size: 2rem;
+color: #FFFFFF;
+text-align: center;
+width: 26%;
+border: solid red;
+}
+
+.bottomCachorropequeno {
+  font-size: 3rem;
+  color: black;
+  border: solid black;
+  border-radius: 60px 60px 60px 60px;
+  background-color: white;
+  width: 800vh;
+  width: 350px;
+  height: 100px;
+  }
+  
+  footer{
+    height: 35vh;
+    background-color: #EB4A7B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    border:solid black;
+    margin-top: 36%;
+}
+
+footer h4{
+    font-size: 2em;
+}
+
+footer ul{
+    font-size: 1em;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
